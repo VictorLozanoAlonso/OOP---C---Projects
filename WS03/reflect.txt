@@ -1,0 +1,17 @@
+// Workshop 3 - Templates
+// Victor Lozano - 2021/09/30
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+We require specialization for the "+=" operator because we are going to use it with string types instead of numbers, therefore we have to implement the logic to concatenate the strings.
+We do not need to specialize the initial value for the summation because the operator "+=" works by default when the variables are numbers.
+On the other hand, when we use a template declaration for a family of classes that include a class variable requires a complementary template declaration to define and initialize the family of class variables. For that reason, we should define the class variable outside the class definition. We can see an example in the "PairSummable.h" file:
+
+template<typename V, typename K>
+size_t PairSummable<V,K>::fieldWidth = 0;
+template<typename V, typename K>
+V PairSummable<V,K>::initial;
+Here we define class variables outside the class definition.
+To conclude, in general terms this workshop was hard because create and manage templates is complex.

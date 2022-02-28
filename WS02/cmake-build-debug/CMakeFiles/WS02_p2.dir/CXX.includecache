@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/StringSet.cpp
+utility
+-
+fstream
+-
+StringSet.h
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/StringSet.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/StringSet.h
+string
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/TimedEvents.cpp
+iomanip
+-
+TimedEvents.h
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/TimedEvents.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/TimedEvents.h
+iostream
+-
+chrono
+-
+string
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/w2_p2.cpp
+iostream
+-
+iomanip
+-
+utility
+-
+string
+-
+StringSet.h
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/StringSet.h
+StringSet.h
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/StringSet.h
+TimedEvents.h
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/TimedEvents.h
+TimedEvents.h
+/Users/victor/Documents/Computer Programming/3OOP/WS02 p2/TimedEvents.h
+

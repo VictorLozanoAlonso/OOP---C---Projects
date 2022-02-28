@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/ConfirmationSender.h
+iostream
+-
+Reservation.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Reservation.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Reservation.h
+string
+-
+ostream
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Restaurant.cpp
+Reservation.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Reservation.h
+Restaurant.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Restaurant.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Restaurant.h
+iostream
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/w4_p2.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+string
+-
+utility
+-
+Restaurant.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Restaurant.h
+Restaurant.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Restaurant.h
+ConfirmationSender.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/ConfirmationSender.h
+ConfirmationSender.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/ConfirmationSender.h
+Reservation.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Reservation.h
+Reservation.h
+/Users/victor/Documents/Computer Programming/3OOP/WS04 p1/Reservation.h
+

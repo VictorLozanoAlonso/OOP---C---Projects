@@ -1,0 +1,12 @@
+// Workshop 6 - STL Containers
+// Victor Lozano - 2021/11/07
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+In this workshop, we must create different objects depending on the read record type from the file. Mainly we have two types of vehicles, "Car" and "Racecar". They are dynamically created at the time of reading the file. For that reason, we have to free memory allocation for the object by using the "autoshop" destructor.
+
+According to the workshop specifications, the "loadData" function should be able to "catch" errors in case of instancing fail. In our case, we defined error for cases of the condition of the car is different to "used", "new", and "broken". In case of the condition read was different from either of three, the app throw an error showing the unrecognized value. Also, the "loadData" function is able to throw an error if the "topSpeed" parameter is different from a number. The structure implemented is "try () - catch". In my opinion, this is the best way to manage these punctual exceptions.
+
+If we modify our code to eliminate the vehicle pointers we will have more complex code. By using pointers we could combine objects of "car" and "racecar" in the same vector list. Also, it allows us to use a structure of the base and derived classes.

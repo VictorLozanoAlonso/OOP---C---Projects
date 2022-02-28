@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS06/Autoshop.cpp
+vector
+-
+Autoshop.h
+/Users/victor/Documents/Computer Programming/3OOP/WS06/Autoshop.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS06/Autoshop.h
+iostream
+-
+vector
+-
+list
+-
+Vehicle.h
+/Users/victor/Documents/Computer Programming/3OOP/WS06/Vehicle.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS06/Vehicle.h
+iostream
+-
+string
+-
+

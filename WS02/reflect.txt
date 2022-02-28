@@ -1,0 +1,8 @@
+// Workshop 2 - Copy and Move Semantics
+// Victor Lozano - 2021/09/25
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+In this workshop, I practiced and learned the concepts "move constructor" and "move assignment operator". Also, I refreshed the concepts of copy and assignment operator. In these kinds of operations, we need to be careful with memory allocation because is easy to create memory leak problems. The usage of move operations will be more proper when we have objects near the end of their lifetime. We move the content and then the source object will be set to empty safe state. I notice that in move operations we will make more computational actions than copy and assignment operations. As a consequence, we will require more time to make them. I think this is the main reason for the time difference between copy and move operations. To conclude, we will have to pay attention to the types of the class members to set to empty states properly, especially when they are pointers.

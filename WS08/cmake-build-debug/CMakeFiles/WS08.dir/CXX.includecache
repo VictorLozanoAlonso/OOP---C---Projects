@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Element.h
+iomanip
+-
+string
+-
+fstream
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS08/List.h
+iostream
+-
+iomanip
+-
+vector
+-
+string
+-
+memory
+-
+utility
+-
+fstream
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Utilities.cpp
+memory
+-
+List.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/List.h
+Element.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Element.h
+Utilities.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Utilities.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Utilities.h
+List.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/List.h
+Element.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Element.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS08/w8_p2.cpp
+iostream
+-
+fstream
+-
+iomanip
+-
+Element.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Element.h
+List.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/List.h
+Utilities.h
+/Users/victor/Documents/Computer Programming/3OOP/WS08/Utilities.h
+

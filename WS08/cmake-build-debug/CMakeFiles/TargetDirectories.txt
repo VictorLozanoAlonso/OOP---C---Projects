@@ -1,0 +1,3 @@
+/Users/victor/Documents/Computer Programming/3OOP/WS08/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/victor/Documents/Computer Programming/3OOP/WS08/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/victor/Documents/Computer Programming/3OOP/WS08/cmake-build-debug/CMakeFiles/WS08.dir

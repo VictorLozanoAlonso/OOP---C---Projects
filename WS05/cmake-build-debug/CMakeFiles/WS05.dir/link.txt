@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/WS05.dir/w5_p2.cpp.o CMakeFiles/WS05.dir/Book.cpp.o CMakeFiles/WS05.dir/SpellChecker.cpp.o CMakeFiles/WS05.dir/Movie.cpp.o -o WS05 

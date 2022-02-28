@@ -1,0 +1,11 @@
+// Workshop 9 - Multi-Threading
+// Victor Lozano - 2021/11/24
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+In this workshop, we work with multithreading. In my opinion, it was a small and simple use case but it was enough to understand how it works. 
+In essence, the functionality is to encrypt and decrypt files. It is done character by character using a key. For that, we need the file in binary to can make calculations with the content.
+On the other hand, std::bind helps to simplify the function converter because we only need to modify half of the parameters, the rest remain constant. It is like making a partial action of the "converter" function.
+Finally, working with thread gives us the advantage to make operations quicker because several actions are being done simultaneously. In this workshop, we split the action to encrypt/decrypt in four threads, as a consequence the task will be done faster than it was done in only one thread. The inconvenience of that is that we will need more computational resources.

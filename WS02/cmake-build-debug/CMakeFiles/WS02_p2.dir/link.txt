@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/WS02_p2.dir/w2_p2.cpp.o CMakeFiles/WS02_p2.dir/StringSet.cpp.o CMakeFiles/WS02_p2.dir/TimedEvents.cpp.o -o WS02_p2 

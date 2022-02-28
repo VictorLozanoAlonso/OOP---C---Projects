@@ -1,0 +1,9 @@
+// Workshop 8 - Smart Pointers
+// Victor Lozano - 2021/11/21
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+In my opinion, the best advantage of smart pointers syntax offer me is about memory allocation/deallocation. Smart pointer has the ability to deallocate the dynamic memory to which it points calling its destructor, flushes the stream buffer, and closes the stream by itself. We can see the difference in the "Utilities" module. Additionally, the safe exception handling does easier the code definition.
+We implemented two functions using raw pointers and smart pointers. For raw pointers, we had to manage to allocate and deallocate. Instead, for smart pointers, the code is much easy and clean. 
+The main difference is how the pointers are defined. For Raw pointers, we use the syntax for common pointers. On the other hand, for the smart pointer, we should the built-in syntax, std::unique_ptr or std::share_ptr. Also, we had additional differences incorporated to this kind of pointers mentioned at "https://ict.senecacollege.ca/~oop345/pages/content/smart.html#uni"

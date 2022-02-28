@@ -1,0 +1,11 @@
+// Workshop 1 - Linkage, Storage Duration, Namespaces, and OS Interface
+// Victor Lozano - 2021/09/15
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+The main difference between internal and external linkage is the scope of an entity. They can be limited to the translation unit where it is defined (internal) or it can be used in other translation units (external). For instance, in our code, we have two examples. First of them is the variable "g_sysClock". It is declared in "event.h" and used in w1_p2.cpp. The second example is the "counter" variable. It only can be used in the Event translation unit. 
+Variables declared as static has a local scope inside of their translation unit. In terms of memory, static means that a variable is defined one time and lasts the entire lifetime of the program, it is not re-initialized. For example, we declared a counter that keeps the value independently of the number of times the function display is called.
+For the second part, I had to update the code to remove the char limit in the description field. To do that, I had to utilize logic for dynamic memory allocation/deallocation. It implies the definition of copy construction and copy-assignment operator methods. Also, I had to define a deconstructor for memory deallocation. 
+On the other hand, in terms of developing the workshop, I had some issues associated with memory management. The program runs properly, but there was a memory leak problem. After several debugging times I could identify the problem in the set function. I was assing "nullpointer" to the m_description variable without deallocation.

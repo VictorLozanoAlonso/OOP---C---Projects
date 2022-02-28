@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS09/SecureData.cpp
+iostream
+-
+fstream
+-
+string
+-
+thread
+-
+functional
+-
+SecureData.h
+/Users/victor/Documents/Computer Programming/3OOP/WS09/SecureData.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS09/SecureData.h
+iostream
+-
+

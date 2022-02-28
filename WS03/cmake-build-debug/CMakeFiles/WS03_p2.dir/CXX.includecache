@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/Pair.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/PairSummable.h
+string
+-
+Pair.h
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/Pair.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/Set.h
+iostream
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/SetSummable.h
+string
+-
+Set.h
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/Set.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/w3_p2.cpp
+fstream
+-
+iostream
+-
+iomanip
+-
+string
+-
+SetSummable.h
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/SetSummable.h
+PairSummable.h
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/PairSummable.h
+SetSummable.h
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/SetSummable.h
+PairSummable.h
+/Users/victor/Documents/Computer Programming/3OOP/WS03 p2/PairSummable.h
+

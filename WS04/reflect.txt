@@ -1,0 +1,14 @@
+// Workshop 4 - Containers
+// Victor Lozano - 2021/10/08
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+The main difference between aggregation and composition is that aggregation implies a relationship in which the child can exist independently of the parent. On the other hand, the composition hints at a relationship where the child cannot exist independently of the parent.
+Related to copy and move functions implemented in compositions and aggregations I do not appreciate differences. Both have implemented the functions with the same logic. 
+
+In the class ConfirmationSender we appreciate aggregation function. For that reason we code the functions "ConfirmationSender& operator+=(const Reservation& res);
+ConfirmationSender& operator-=(const Reservation& res);"
+On the other hand, we find the association feature in the "Reservation" class.
+Finally, the "composition" type is identified with the "Restaurant" class.

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS05/Movie.cpp
+iomanip
+-
+Movie.h
+/Users/victor/Documents/Computer Programming/3OOP/WS05/Movie.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS05/Movie.h
+iostream
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS05/SpellChecker.cpp
+fstream
+-
+SpellChecker.h
+/Users/victor/Documents/Computer Programming/3OOP/WS05/SpellChecker.h
+
+/Users/victor/Documents/Computer Programming/3OOP/WS05/SpellChecker.h
+iostream
+-
+

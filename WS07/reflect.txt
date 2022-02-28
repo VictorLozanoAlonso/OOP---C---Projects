@@ -1,0 +1,17 @@
+// Workshop 7: STL Algorithms
+// Victor Lozano - 2021/11/10
+// Email  : vlozano-alonso@myseneca.ca
+// ID     : 130720204
+// Observations: I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+The relation of STL functions used in this workshop are:
+Std::for_each: Used to print the content of the Songs Collections. I chose it because only I needed to extract each vector value to print without any extra functionality.
+Std::sort: Used to sort the vector in ascending order. This STL match 100% with the requirement needed.
+Std::replace_if: Used to in CleanAlbum function because I was only needing to modify the content of any value in the vector with "none" album. This STL was the most efficient function.
+Std::any_of: Used to look for values in the vector and return true or false. This STL does exactly the action joined to the Lambda function.
+Std::copy_if: Used to create a new list with only songs of a specific singer passed as a reference. Again, this STL meets the functionality efficiently.
+
+In my opinion, the usage of STL algorithms is much efficient to code manually each of these functions. If I have a built-in function that does an action it does not make sense to implement it again manually.
+
+Avoids invalid entry to sort the collection we should implement a pre-check of the string passed in the function. For example, we should code a function to check if the string is empty, or contain some special character not usual in the options filters. In case of any error will be found we can throw an exception or simply the function does nothing.

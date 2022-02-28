@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victor/Documents/Computer Programming/3OOP/WS01 p2/event.cpp
+event.h
+/Users/victor/Documents/Computer Programming/3OOP/WS01 p2/event.h
+cstring
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS01 p2/event.h
+iostream
+-
+
+/Users/victor/Documents/Computer Programming/3OOP/WS01 p2/w1_p2.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+event.h
+/Users/victor/Documents/Computer Programming/3OOP/WS01 p2/event.h
+event.h
+/Users/victor/Documents/Computer Programming/3OOP/WS01 p2/event.h
+
